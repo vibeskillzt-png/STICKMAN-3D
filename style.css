@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: black;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+h1 {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    margin-top: 10px;
+    color: #00ffcc;
+}
+
+#ui {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    z-index: 10;
+    background: rgba(0,0,0,0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
